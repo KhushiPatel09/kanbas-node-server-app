@@ -14,10 +14,7 @@ const app = express();
 
 app.use(cors({
   credentials: true,
-  origin: (origin, callback) => {
-    // Allow requests from all origins
-    callback(null, true);
-  }
+  origin: process.env.NETLIFY_URL || "http://localhost:3000",
 }));
 
 const sessionOptions = {
