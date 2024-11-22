@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "kanbas-node-server-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhushiPatel09/kanbas-node-server-app.git"
+  },
+  "keywords": [
+    "Web",
+    "Dev",
+    "CS5610"
+  ],
+  "author": "Khushi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhushiPatel09/kanbas-node-server-app/issues"
+  },
+  "homepage": "https://github.com/KhushiPatel09/kanbas-node-server-app#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
