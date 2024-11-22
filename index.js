@@ -14,7 +14,7 @@ const app = express();
 
 app.use(cors({
    credentials: true,
-   origin: "https://a5--kanbas-react-web-app-cs5610-fall2024.netlify.app/" || "http://localhost:3000", 
+   origin: "*", 
 }));
 
 const sessionOptions = {
