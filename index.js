@@ -13,8 +13,11 @@ import AssignmentRoutes from "./Kanbas/Assignment/route.js";
 const app = express();
 
 app.use(cors({
-   credentials: true,
-   origin: "*", 
+  credentials: true,
+  origin: (origin, callback) => {
+    // Allow requests from all origins
+    callback(null, true);
+  }
 }));
 
 const sessionOptions = {
